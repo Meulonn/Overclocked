@@ -6,7 +6,6 @@ This is a 2D video game created by 6 students for a school project using SDL 1.2
 * [SDL 1.2 ](https://www.libsdl.org/download-1.2.php) - Library used
 
 ## Compilation
-How to execute so far
 ```
 gcc menu.c -o menu -lSDL -lSDL_image -lSDL_mixer -lSDL_ttf
 ```
