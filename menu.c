@@ -42,7 +42,7 @@ TTF_Font *police;
 SDL_Init(SDL_INIT_VIDEO); 
 TTF_Init();
 
-police = TTF_OpenFont("Mount Hills.otf",20); 
+police = TTF_OpenFont("Fonts/Mount Hills.otf",20); 
 quitter = TTF_RenderText_Blended(police, "Press 'esc' to quit ", policeNoire);
 
 
@@ -59,18 +59,18 @@ if(Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, MIX_DEFAULT_CHANNELS, 1024) == -1)
 
 
    
-   musique = Mix_LoadMUS("musique2.mp3");
+   musique = Mix_LoadMUS("sounds/tracks/musique2.mp3");
    Mix_PlayMusic(musique, -1);
-   bref = Mix_LoadWAV("son.wav");
+   bref = Mix_LoadWAV("sounds/son.wav");
    
-   image_backg = IMG_Load ("bgcarth.jpg");  
-   image1 = IMG_Load ("Asset_1.png");
-   image1G = IMG_Load ("Asset_2.png");
-   image2 = IMG_Load ("Asset_3.png");
-   image2G = IMG_Load ("Asset_4.png");
-   image3 = IMG_Load ("Asset_5.png");
-   image3G = IMG_Load ("Asset_6.png");
-   options = IMG_Load ("bg.png");
+   image_backg = IMG_Load ("image/bgcarth.jpg");  
+   image1 = IMG_Load ("image/Asset_1.png");
+   image1G = IMG_Load ("image/Asset_2.png");
+   image2 = IMG_Load ("image/Asset_3.png");
+   image2G = IMG_Load ("image/Asset_4.png");
+   image3 = IMG_Load ("image/Asset_5.png");
+   image3G = IMG_Load ("image/Asset_6.png");
+   options = IMG_Load ("image/bg.png");
 	//SDL_LoadBMP("image.bmp");
 
 
