@@ -1,5 +1,5 @@
-# Game name: Mezelna maanarfouch
-This is a 2D video game created by 6 students for a school project using SDL 1.2
+# Game name: Overclocked
+This is a 2D video game created by 6 students for a school project using C language.
 
 ## Built With
 
@@ -8,6 +8,10 @@ This is a 2D video game created by 6 students for a school project using SDL 1.2
 ## Compilation
 ```
 gcc menu.c -o menu -lSDL -lSDL_image -lSDL_mixer -lSDL_ttf
+```
+## Run
+```
+./menu
 ```
 ## github code
 ### Config
